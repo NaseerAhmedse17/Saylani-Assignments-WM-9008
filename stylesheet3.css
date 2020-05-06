@@ -1,0 +1,543 @@
+.div1{
+	background-color: #3498DB;
+	height: 50px;
+	flex-wrap:wrap; 
+
+}
+@media only screen and (max-width: 1300px) {
+  .div1{
+	background-color: #3498DB;
+	height: 160px;
+	flex-wrap:wrap; 
+
+}
+}
+.seconline{
+	display: flex;
+	flex-wrap: wrap;
+    background-color: red;
+
+}
+.div2{
+	margin-left: 200px;
+	float: left;
+}
+.fb,.twitter,.youtube,.insta,.whatsapp{
+	width: 18px;
+	height: 18px;
+	padding-right:25px;
+	padding-top: 15px;
+}
+.div3{
+ text-align: center;
+ color: white;
+ float: left;
+ padding-left: 60px;
+ font-size: 17px;
+ padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .div3{
+ text-align: center;
+ color: white;
+ float: left;
+ padding-left: 50px;
+ font-size: 15px;
+ padding-top: 15px;
+}
+}
+.div4{
+	float: left;
+	padding-top: 15px;
+	padding-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+.div4{
+	float: left;
+	padding-top: 15px;
+	padding-left: 80px;
+} 
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    clear: both;
+	padding-left: 20px;
+	padding-top: 20px;
+  }
+}
+.div5{
+
+	padding-left: 200px;
+	float: left;
+	flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 800px) {
+  .div5 {
+    float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+  }
+}
+.saylani{
+	width: 220px;
+	height: 80px;
+}
+@media only screen and (max-width: 800px) {
+.saylani{
+	width: 160px;
+	height: 50px;
+}  
+}
+.div6{
+	flex-wrap: wrap;
+	float: left;
+	padding-left: 250px;
+	padding-top: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .div6 {
+	padding-left: 70px;
+	padding-top: 35px;
+  }
+}
+.home{
+	border-radius: 25px;
+	border: 10px solid #3498DB;
+	background-color: #3498DB;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+  padding-top: 10px;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px) {
+  .navbar {
+    flex-wrap: wrap;
+	padding-left: 10px;
+	padding-top: 20px;
+  }
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #3498DB;
+  border-radius: 20px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.mainpic{
+	width: 1510px;
+	height: 450px;
+}
+@media only screen and (max-width: 1200px) {
+  .mainpic {
+	width: 700px;
+	height: 250px;
+  }
+}
+.div7{
+	padding-top: 15px;
+	background-color:#3498DB;
+	margin-left:100px;
+	margin-right: 100px; 
+	height: 25px;
+	font-size: 22px;
+	color: white;
+}
+@media only screen and (max-width: 1200px) {
+ .div7{
+	padding-top: 15px;
+	background-color:#3498DB;
+	margin-left:60px;
+	margin-right: 70px; 
+	height: 25px;
+	font-size: 22px;
+	color: white;
+} 
+}
+.intro{
+	width: 400px;
+	height: 100px;
+	padding-top: 25px;
+	padding-left: 550px;
+
+}
+@media only screen and (max-width: 1200px) {
+.intro{
+	width: 180px;
+	height: 70px;
+	padding-top: 25px;
+	padding-left: 150px;
+
+} 
+}
+
+.para1{
+	font-size: 17px;
+	padding-left: 250px;
+	padding-right: 250px;
+	word-spacing: 2px;
+	line-height: 30px;
+}
+@media only screen and (max-width: 1200px) {
+.para1{
+	font-size: 12px;
+	padding-left: 150px;
+	padding-right: 150px;
+	word-spacing: 2px;
+	line-height: 19px;
+}
+}
+.imge{
+	padding-top: 30px;
+	height: 300px;
+	width: 1510px;
+}
+@media only screen and (max-width: 1200px) {
+.imge{
+	padding-top: 30px;
+	height: 190px;
+	width: 710px;
+}
+}
+.intro2{
+	padding-left: 500px;
+	width: 500px;
+}
+@media only screen and (max-width: 1200px) {
+.intro2{
+	padding-left: 200px;
+	width: 300px;
+}
+}
+.div8{
+	margin-top: 30px;
+	margin-left: 160px;
+	float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.saddqa,.welfare,.medical{
+	
+	height: 80px;
+	width: 250px;
+	border-radius: 30px;
+}
+.div9,.div10,.div12,.div13{
+	margin-top: 30px;
+	margin-left: 80px;
+	float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 150px;
+}
+@media only screen and (max-width: 1200px) {
+.div9,.div10,.div12,.div13{
+	margin-top: 30px;
+	margin-left: 160px;
+	float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+}
+.div11{
+	float: left;
+	margin-left: 160px;
+	margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 150px;
+}
+.div14{
+	margin-left: 160px;
+	margin-top: 40px;
+	float: left;
+}
+@media only screen and (max-width: 1200px) {
+.div14{
+	margin-left: 20px;
+	margin-top: 40px;
+	float: left;
+}
+}
+.marq{
+	float: left;
+	padding-left: 290px;
+}
+@media only screen and (max-width: 1000px) {
+.marq{
+	clear: both;
+	padding-left: 90px;
+}
+}
+.div15{
+	clear: both;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 30px;
+	margin-top: 40px;
+	margin-left: 160px;
+	float: left;
+	width: 300px;
+	height: 40px;
+}
+@media only screen and (max-width: 1000px) {
+.div15{
+	clear: both;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-left: 160px;
+	float: left;
+	width: 300px;
+	height: 40px;
+}
+}
+.mission{
+	margin-top: 30px;
+}
+@media only screen and (max-width: 1000px) {
+.mission{
+	margin-top: 30px;
+	height: 80px;
+}
+}
+.div16{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 40px;
+	margin-left: 30px;
+	float: left;
+	width: 300px;
+	height: 70px;
+}
+@media only screen and (max-width: 1000px) {
+.div16{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+	margin-left: 160px;
+	padding-left: 160px;
+	float: left;
+	width: 250px;
+	height: 70px;
+}
+}
+.uc{
+	font-size: 18px;
+	width: 450px;
+	height: 150px;
+	font-family:"Times New Roman", Times, serif;
+}
+.div17{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 35px;
+	width: 300px;
+	height: 60px;
+	margin-left: 160px;
+	float: left;
+}
+
+.div18{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 35px;
+	float: left;
+	width: 300px;
+	height: 60px;
+	margin-left: 30px;
+}
+@media only screen and (max-width: 1000px) {
+.div18{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 35px;
+	margin-left: 160px;
+	padding-left: 160px;
+	float: left;
+	width: 250px;
+	height: 70px;
+}
+}
+.marq{
+margin-left: 590px;
+}
+.last{
+	padding: 100px;
+	width: 1300px;
+}
+@media only screen and (max-width: 1000px) {
+.last{
+	padding: 50px;
+	width: 600px;
+}
+}
+.lastdiv1{
+background-color: #25282A;		
+float: left;
+color: white;
+height: 390px;
+}
+@media only screen and (max-width: 1200px) {
+.lastdiv1{
+background-color: #25282A;		
+float: left;
+color: white;
+height: 190px;
+width: 600px;
+}
+}
+.para2{
+	padding-left: 200px;
+	padding-top: 75px;
+}
+@media only screen and (max-width: 1200px) {
+.para2{
+	padding-left: 20px;
+	padding-top: 75px;
+}
+}
+.lastdiv3{
+	padding-left: 60px;
+	padding-top: 55px;
+	background-color: #25282A;		
+    float: left;
+    color: white;
+    height: 335px;
+    width: 630px;
+} 
+@media only screen and (max-width: 1200px) {
+.lastdiv3{
+	padding-left: 40px;
+	padding-top: 55px;
+	background-color: #25282A;		
+    float: left;
+    color: white;
+    height: 235px;
+    width: 560px;
+} 
+}
+.lastdiv2{
+	color: white;
+	background-color:#25282A   ;
+	float: left;
+	width: 225px;
+	height: 390px;
+
+}
+.hrclass{
+	width: 600px; 
+	color: white;
+}
+@media only screen and (max-width: 1200px) {
+.hrclass{
+	width: 500px; 
+	color: white;
+}
+}
+@media only screen and (max-width: 1200px) {
+.lastdiv2{
+	color: white;
+	background-color:#25282A   ;
+	float: left;
+	width: 600px;
+	height: 290px;
+
+}
+}
+.fbpic{
+ border-radius: 45px;
+ padding-top: 25px;
+ width: 30px;
+ height: 30px;
+}
+.bottom{
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+}
+.cpr{
+	clear: both;
+	background-color:#3498DB; 
+	height: 30px;
+	width: 1480px;
+}
+@media only screen and (max-width: 1200px) {
+.cpr{
+	clear: both;
+	background-color:#3498DB; 
+	height: 30px;
+	width: 620px;
+}
+}
+.textpara{
+color: white;
+padding-left: 230px; 
+font-size: 18px;
+text-decoration: none;
+}
+
+
